@@ -1,5 +1,5 @@
 ---
-name: "DEEPCOIN"
+name: "CRYSTAL"
 suites:
 - "precise"
 architectures:
@@ -13,8 +13,8 @@ packages:
 - "faketime"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/DEEPCOIN-project/DEEPCOIN.git"
-  "dir": "DEEPCOIN"
+- "url": "https://github.com/CRYSTAL-project/CRYSTAL.git"
+  "dir": "CRYSTAL"
 files:
 - "qt-win32-4.8.3-gitian-r4.zip"
 - "boost-win32-1.54.0-gitian-r6.zip"
@@ -31,7 +31,7 @@ script: |
   unzip ../build/bitcoin-deps-win32-gitian-r9.zip
   cd $HOME/build/
   #
-  cd DEEPCOIN
+  cd CRYSTAL
   export PATH=$STAGING/host/bin:$PATH
   mkdir -p $OUTDIR/src
   git archive HEAD | tar -x -C $OUTDIR/src
@@ -41,19 +41,19 @@ script: |
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
   ln -s $STAGING $HOME/qt
-  $HOME/staging/host/bin/qmake -spec unsupported/win32-g++-cross MINIUPNPC_LIB_PATH=$STAGING MINIUPNPC_INCLUDE_PATH=$STAGING BDB_LIB_PATH=$STAGING BDB_INCLUDE_PATH=$STAGING BOOST_LIB_PATH=$STAGING BOOST_INCLUDE_PATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s OPENSSL_LIB_PATH=$STAGING OPENSSL_INCLUDE_PATH=$STAGING QRENCODE_LIB_PATH=$STAGING QRENCODE_INCLUDE_PATH=$STAGING USE_QRCODE=1 INCLUDEPATH=$STAGING DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=DEEPCOIN USE_BUILD_INFO=1 USE_SSE2=1
+  $HOME/staging/host/bin/qmake -spec unsupported/win32-g++-cross MINIUPNPC_LIB_PATH=$STAGING MINIUPNPC_INCLUDE_PATH=$STAGING BDB_LIB_PATH=$STAGING BDB_INCLUDE_PATH=$STAGING BOOST_LIB_PATH=$STAGING BOOST_INCLUDE_PATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s OPENSSL_LIB_PATH=$STAGING OPENSSL_INCLUDE_PATH=$STAGING QRENCODE_LIB_PATH=$STAGING QRENCODE_INCLUDE_PATH=$STAGING USE_QRCODE=1 INCLUDEPATH=$STAGING DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=CRYSTAL USE_BUILD_INFO=1 USE_SSE2=1
   make $MAKEOPTS
-  $HOST-strip release/DEEPCOIN-qt.exe
-  cp release/DEEPCOIN-qt.exe $OUTDIR/
+  $HOST-strip release/CRYSTAL-qt.exe
+  cp release/CRYSTAL-qt.exe $OUTDIR/
   #
   cd src
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING DEEPCOINd.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=DEEPCOIN" USE_SSE2=1
-  $HOST-strip DEEPCOINd.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING CRYSTALd.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=CRYSTAL" USE_SSE2=1
+  $HOST-strip CRYSTALd.exe
   mkdir $OUTDIR/daemon
-  cp DEEPCOINd.exe $OUTDIR/daemon
+  cp CRYSTALd.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis
@@ -62,4 +62,4 @@ script: |
   cp ../../release/* ../release/
   cp ../../src/*.exe .
   makensis ../share/setup.nsi
-  cp ../share/DEEPCOIN-*-win32-setup.exe $OUTDIR/
+  cp ../share/CRYSTAL-*-win32-setup.exe $OUTDIR/
