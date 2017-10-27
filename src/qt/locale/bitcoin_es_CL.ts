@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DEEPCOIN</source>
-        <translation>Sobre DEEPCOIN</translation>
+        <source>About CRYSTAL</source>
+        <translation>Sobre CRYSTAL</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DEEPCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DEEPCOIN&lt;/b&gt; - versión </translation>
+        <source>&lt;b&gt;CRYSTAL&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CRYSTAL&lt;/b&gt; - versión </translation>
     </message>
     <message>
         <location line="+57"/>
@@ -37,7 +37,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+0"/>
-        <source>The DEEPCOIN developers</source>
+        <source>The CRYSTAL developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -70,8 +70,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DEEPCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son tus direcciones DEEPCOIN para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
+        <source>These are your CRYSTAL addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son tus direcciones CRYSTAL para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -85,7 +85,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DEEPCOIN address</source>
+        <source>Sign a message to prove you own a CRYSTAL address</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -110,7 +110,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DEEPCOIN address</source>
+        <source>Verify a message to ensure it was signed with a specified CRYSTAL address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -125,7 +125,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DEEPCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CRYSTAL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -251,8 +251,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEEPCOINS&lt;/b&gt;!</source>
-        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS DEEPCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRYSTALS&lt;/b&gt;!</source>
+        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS CRYSTALS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-56"/>
-        <source>DEEPCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DEEPCOINs from being stolen by malware infecting your computer.</source>
-        <translation>DEEPCOIN se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus DEEPCOINs de ser robados por malware que infecte su computador</translation>
+        <source>CRYSTAL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRYSTALs from being stolen by malware infecting your computer.</source>
+        <translation>CRYSTAL se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus CRYSTALs de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DEEPCOIN</source>
-        <translation>Muestra información acerca de DEEPCOIN</translation>
+        <source>Show information about CRYSTAL</source>
+        <translation>Muestra información acerca de CRYSTAL</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DEEPCOIN address</source>
-        <translation>Enviar monedas a una dirección DEEPCOIN</translation>
+        <source>Send coins to a CRYSTAL address</source>
+        <translation>Enviar monedas a una dirección CRYSTAL</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DEEPCOIN</source>
-        <translation>Modifica las opciones de configuración de DEEPCOIN</translation>
+        <source>Modify configuration options for CRYSTAL</source>
+        <translation>Modifica las opciones de configuración de CRYSTAL</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -458,8 +458,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DEEPCOIN</source>
-        <translation>DEEPCOIN</translation>
+        <source>CRYSTAL</source>
+        <translation>CRYSTAL</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -483,8 +483,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DEEPCOIN</source>
-        <translation>&amp;Sobre DEEPCOIN</translation>
+        <source>&amp;About CRYSTAL</source>
+        <translation>&amp;Sobre CRYSTAL</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,12 +503,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DEEPCOIN addresses to prove you own them</source>
+        <source>Sign messages with your CRYSTAL addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DEEPCOIN addresses</source>
+        <source>Verify messages to ensure they were signed with specified CRYSTAL addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -539,13 +539,13 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+47"/>
-        <source>DEEPCOIN client</source>
-        <translation>Cliente DEEPCOIN</translation>
+        <source>CRYSTAL client</source>
+        <translation>Cliente CRYSTAL</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DEEPCOIN network</source>
-        <translation><numerusform>%n conexión activa hacia la red DEEPCOIN</numerusform><numerusform>%n conexiones activas hacia la red DEEPCOIN</numerusform></translation>
+        <source>%n active connection(s) to CRYSTAL network</source>
+        <translation><numerusform>%n conexión activa hacia la red CRYSTAL</numerusform><numerusform>%n conexiones activas hacia la red CRYSTAL</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -658,7 +658,7 @@ Dirección: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DEEPCOIN address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CRYSTAL address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -673,7 +673,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DEEPCOIN can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CRYSTAL can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -739,8 +739,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DEEPCOIN address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección DEEPCOIN valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CRYSTAL address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección CRYSTAL valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -758,7 +758,7 @@ Dirección: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DEEPCOIN-Qt</source>
+        <source>CRYSTAL-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -822,13 +822,13 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DEEPCOIN after logging in to the system.</source>
-        <translation>Inicia DEEPCOIN automáticamente despues de encender el computador</translation>
+        <source>Automatically start CRYSTAL after logging in to the system.</source>
+        <translation>Inicia CRYSTAL automáticamente despues de encender el computador</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DEEPCOIN on system login</source>
-        <translation>&amp;Inicia DEEPCOIN al iniciar el sistema</translation>
+        <source>&amp;Start CRYSTAL on system login</source>
+        <translation>&amp;Inicia CRYSTAL al iniciar el sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -847,8 +847,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DEEPCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente DEEPCOIN en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the CRYSTAL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente CRYSTAL en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DEEPCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecta a la red DEEPCOIN a través de un proxy SOCKS (ej. cuando te conectas por la red Tor)</translation>
+        <source>Connect to the CRYSTAL network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecta a la red CRYSTAL a través de un proxy SOCKS (ej. cuando te conectas por la red Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,7 +932,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEEPCOIN.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CRYSTAL.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -947,7 +947,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DEEPCOIN addresses in the transaction list or not.</source>
+        <source>Whether to show CRYSTAL addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -999,7 +999,7 @@ Dirección: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DEEPCOIN.</source>
+        <source>This setting will take effect after restarting CRYSTAL.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1018,7 +1018,7 @@ Dirección: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEEPCOIN network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CRYSTAL network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1072,7 +1072,7 @@ Dirección: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start DEEPCOIN: click-to-pay handler</source>
+        <source>Cannot start CRYSTAL: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1222,7 +1222,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DEEPCOIN-Qt help message to get a list with possible DEEPCOIN command-line options.</source>
+        <source>Show the CRYSTAL-Qt help message to get a list with possible CRYSTAL command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1242,12 +1242,12 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DEEPCOIN - Debug window</source>
+        <source>CRYSTAL - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>DEEPCOIN Core</source>
+        <source>CRYSTAL Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1257,7 +1257,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DEEPCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CRYSTAL debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1267,7 +1267,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DEEPCOIN RPC console.</source>
+        <source>Welcome to the CRYSTAL RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1451,8 +1451,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DEEPCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduce una dirección DEEPCOIN (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduce una dirección CRYSTAL (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1475,7 +1475,7 @@ Dirección: %4</translation>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduce una dirección DEEPCOIN (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Introduce una dirección CRYSTAL (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1516,7 +1516,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DEEPCOIN address</source>
+        <source>Sign the message to prove you own this CRYSTAL address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -1548,11 +1548,11 @@ Dirección: %4</translation>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduce una dirección DEEPCOIN (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Introduce una dirección CRYSTAL (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DEEPCOIN address</source>
+        <source>Verify the message to ensure it was signed with the specified CRYSTAL address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1568,8 +1568,8 @@ Dirección: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DEEPCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduce una dirección DEEPCOIN (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduce una dirección CRYSTAL (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,7 +1578,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DEEPCOIN signature</source>
+        <source>Enter CRYSTAL signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1652,7 +1652,7 @@ Dirección: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The DEEPCOIN developers</source>
+        <source>The CRYSTAL developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2190,8 +2190,8 @@ Dirección: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DEEPCOIN version</source>
-        <translation>Versión DEEPCOIN</translation>
+        <source>CRYSTAL version</source>
+        <translation>Versión CRYSTAL</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2200,8 +2200,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or DEEPCOINd</source>
-        <translation>Envia comando a DEEPCOIN lanzado con -server u DEEPCOINd
+        <source>Send command to -server or CRYSTALd</source>
+        <translation>Envia comando a CRYSTAL lanzado con -server u CRYSTALd
 </translation>
     </message>
     <message>
@@ -2224,14 +2224,14 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: DEEPCOIN.conf)</source>
-        <translation>Especifica archivo de configuración (predeterminado: DEEPCOIN.conf)
+        <source>Specify configuration file (default: CRYSTAL.conf)</source>
+        <translation>Especifica archivo de configuración (predeterminado: CRYSTAL.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: DEEPCOINd.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: DEEPCOIN.pid)
+        <source>Specify pid file (default: CRYSTALd.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: CRYSTAL.pid)
 </translation>
     </message>
     <message>
@@ -2313,13 +2313,13 @@ Dirección: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=DEEPCOINrpc
+rpcuser=CRYSTALrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2335,7 +2335,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DEEPCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CRYSTAL is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2380,8 +2380,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DEEPCOIN will not work properly.</source>
-        <translation>Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado DEEPCOIN no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CRYSTAL will not work properly.</source>
+        <translation>Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado CRYSTAL no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2631,8 +2631,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DEEPCOIN Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL: (ver la DEEPCOIN Wiki para instrucciones de configuración SSL)</translation>
+        <source>SSL options: (see the CRYSTAL Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL: (ver la CRYSTAL Wiki para instrucciones de configuración SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2833,13 +2833,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DEEPCOIN</source>
-        <translation>Error cargando wallet.dat: Billetera necesita una vercion reciente de DEEPCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CRYSTAL</source>
+        <translation>Error cargando wallet.dat: Billetera necesita una vercion reciente de CRYSTAL</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DEEPCOIN to complete</source>
-        <translation>La billetera necesita ser reescrita: reinicie DEEPCOIN para completar</translation>
+        <source>Wallet needed to be rewritten: restart CRYSTAL to complete</source>
+        <translation>La billetera necesita ser reescrita: reinicie CRYSTAL para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2898,8 +2898,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DEEPCOIN is probably already running.</source>
-        <translation>No es posible escuchar en el %s en este ordenador. Probablemente DEEPCOIN ya se está ejecutando.</translation>
+        <source>Unable to bind to %s on this computer. CRYSTAL is probably already running.</source>
+        <translation>No es posible escuchar en el %s en este ordenador. Probablemente CRYSTAL ya se está ejecutando.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DEEPCOIN</source>
-        <translation>Apie DEEPCOIN</translation>
+        <source>About CRYSTAL</source>
+        <translation>Apie CRYSTAL</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DEEPCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DEEPCOIN&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;CRYSTAL&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CRYSTAL&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,7 +33,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+0"/>
-        <source>The DEEPCOIN developers</source>
+        <source>The CRYSTAL developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -66,8 +66,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DEEPCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tai yra jūsų DEEPCOIN adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
+        <source>These are your CRYSTAL addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tai yra jūsų CRYSTAL adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,8 +81,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DEEPCOIN address</source>
-        <translation>Pasirašykite žinutę, kad įrodytume, jog esate DEEPCOIN adreso savininkas</translation>
+        <source>Sign a message to prove you own a CRYSTAL address</source>
+        <translation>Pasirašykite žinutę, kad įrodytume, jog esate CRYSTAL adreso savininkas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -106,8 +106,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DEEPCOIN address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas DEEPCOIN adresas</translation>
+        <source>Verify a message to ensure it was signed with a specified CRYSTAL address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas CRYSTAL adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DEEPCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CRYSTAL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -247,8 +247,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEEPCOINS&lt;/b&gt;!</source>
-        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO DEEPCOINUS&lt;/b&gt;! </translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRYSTALS&lt;/b&gt;!</source>
+        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO CRYSTALUS&lt;/b&gt;! </translation>
     </message>
     <message>
         <location line="+0"/>
@@ -274,8 +274,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-56"/>
-        <source>DEEPCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DEEPCOINs from being stolen by malware infecting your computer.</source>
-        <translation>DEEPCOIN dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti DEEPCOINų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>CRYSTAL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRYSTALs from being stolen by malware infecting your computer.</source>
+        <translation>CRYSTAL dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti CRYSTALų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DEEPCOIN</source>
-        <translation>Rodyti informaciją apie DEEPCOIN</translation>
+        <source>Show information about CRYSTAL</source>
+        <translation>Rodyti informaciją apie CRYSTAL</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DEEPCOIN address</source>
-        <translation>Siųsti monetas DEEPCOIN adresui</translation>
+        <source>Send coins to a CRYSTAL address</source>
+        <translation>Siųsti monetas CRYSTAL adresui</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DEEPCOIN</source>
-        <translation>Keisti DEEPCOIN konfigūracijos galimybes</translation>
+        <source>Modify configuration options for CRYSTAL</source>
+        <translation>Keisti CRYSTAL konfigūracijos galimybes</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DEEPCOIN</source>
-        <translation>DEEPCOIN</translation>
+        <source>CRYSTAL</source>
+        <translation>CRYSTAL</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DEEPCOIN</source>
-        <translation>&amp;Apie DEEPCOIN</translation>
+        <source>&amp;About CRYSTAL</source>
+        <translation>&amp;Apie CRYSTAL</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,12 +499,12 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DEEPCOIN addresses to prove you own them</source>
+        <source>Sign messages with your CRYSTAL addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DEEPCOIN addresses</source>
+        <source>Verify messages to ensure they were signed with specified CRYSTAL addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -535,13 +535,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+47"/>
-        <source>DEEPCOIN client</source>
-        <translation>DEEPCOIN klientas</translation>
+        <source>CRYSTAL client</source>
+        <translation>CRYSTAL klientas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DEEPCOIN network</source>
-        <translation><numerusform>%n DEEPCOIN tinklo aktyvus ryšys</numerusform><numerusform>%n DEEPCOIN tinklo aktyvūs ryšiai</numerusform><numerusform>%n DEEPCOIN tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to CRYSTAL network</source>
+        <translation><numerusform>%n CRYSTAL tinklo aktyvus ryšys</numerusform><numerusform>%n CRYSTAL tinklo aktyvūs ryšiai</numerusform><numerusform>%n CRYSTAL tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -654,7 +654,7 @@ Adresas: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DEEPCOIN address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CRYSTAL address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -669,7 +669,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DEEPCOIN can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CRYSTAL can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -735,8 +735,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DEEPCOIN address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis DEEPCOIN adresas.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CRYSTAL address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis CRYSTAL adresas.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -754,8 +754,8 @@ Adresas: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DEEPCOIN-Qt</source>
-        <translation>DEEPCOIN-Qt</translation>
+        <source>CRYSTAL-Qt</source>
+        <translation>CRYSTAL-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -817,13 +817,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DEEPCOIN after logging in to the system.</source>
+        <source>Automatically start CRYSTAL after logging in to the system.</source>
         <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DEEPCOIN on system login</source>
-        <translation>&amp;Paleisti DEEPCOIN programą su window sistemos paleidimu</translation>
+        <source>&amp;Start CRYSTAL on system login</source>
+        <translation>&amp;Paleisti CRYSTAL programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -842,8 +842,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DEEPCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti DEEPCOIN kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the CRYSTAL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti CRYSTAL kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -852,7 +852,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DEEPCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the CRYSTAL network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Jungtis į Bitkoin tinklą per  socks proxy (pvz. jungiantis per Tor)</translation>
     </message>
     <message>
@@ -927,8 +927,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEEPCOIN.</source>
-        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus DEEPCOIN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CRYSTAL.</source>
+        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus CRYSTAL.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -942,7 +942,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DEEPCOIN addresses in the transaction list or not.</source>
+        <source>Whether to show CRYSTAL addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -994,7 +994,7 @@ Adresas: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DEEPCOIN.</source>
+        <source>This setting will take effect after restarting CRYSTAL.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1013,7 +1013,7 @@ Adresas: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEEPCOIN network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CRYSTAL network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1067,7 +1067,7 @@ Adresas: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start DEEPCOIN: click-to-pay handler</source>
+        <source>Cannot start CRYSTAL: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1217,7 +1217,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DEEPCOIN-Qt help message to get a list with possible DEEPCOIN command-line options.</source>
+        <source>Show the CRYSTAL-Qt help message to get a list with possible CRYSTAL command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,13 +1237,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>DEEPCOIN - Debug window</source>
-        <translation>DEEPCOIN - Derinimo langas</translation>
+        <source>CRYSTAL - Debug window</source>
+        <translation>CRYSTAL - Derinimo langas</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DEEPCOIN Core</source>
-        <translation>DEEPCOIN branduolys</translation>
+        <source>CRYSTAL Core</source>
+        <translation>CRYSTAL branduolys</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1252,7 +1252,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DEEPCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CRYSTAL debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1262,7 +1262,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DEEPCOIN RPC console.</source>
+        <source>Welcome to the CRYSTAL RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1446,7 +1446,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DEEPCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
@@ -1511,7 +1511,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DEEPCOIN address</source>
+        <source>Sign the message to prove you own this CRYSTAL address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1547,8 +1547,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DEEPCOIN address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas DEEPCOIN adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified CRYSTAL address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas CRYSTAL adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,7 +1563,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DEEPCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -1573,8 +1573,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DEEPCOIN signature</source>
-        <translation>Įveskite DEEPCOIN parašą</translation>
+        <source>Enter CRYSTAL signature</source>
+        <translation>Įveskite CRYSTAL parašą</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1647,7 +1647,7 @@ Adresas: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The DEEPCOIN developers</source>
+        <source>The CRYSTAL developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2185,8 +2185,8 @@ Adresas: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DEEPCOIN version</source>
-        <translation>DEEPCOIN versija</translation>
+        <source>CRYSTAL version</source>
+        <translation>CRYSTAL versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2195,8 +2195,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or DEEPCOINd</source>
-        <translation>Siųsti komandą serveriui arba DEEPCOINd</translation>
+        <source>Send command to -server or CRYSTALd</source>
+        <translation>Siųsti komandą serveriui arba CRYSTALd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2215,13 +2215,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: DEEPCOIN.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: DEEPCOIN.conf)</translation>
+        <source>Specify configuration file (default: CRYSTAL.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: CRYSTAL.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: DEEPCOINd.pid)</source>
-        <translation>Nurodyti pid failą (pagal nutylėjimą: DEEPCOINd.pid)</translation>
+        <source>Specify pid file (default: CRYSTALd.pid)</source>
+        <translation>Nurodyti pid failą (pagal nutylėjimą: CRYSTALd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2298,13 +2298,13 @@ Adresas: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=DEEPCOINrpc
+rpcuser=CRYSTALrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DEEPCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CRYSTAL is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2365,8 +2365,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DEEPCOIN will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas DEEPCOIN, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CRYSTAL will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas CRYSTAL, veiks netinkamai.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2615,8 +2615,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DEEPCOIN Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e DEEPCOIN Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the CRYSTAL Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e CRYSTAL Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2805,13 +2805,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DEEPCOIN</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės DEEPCOIN versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CRYSTAL</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės CRYSTAL versijos</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DEEPCOIN to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite DEEPCOIN</translation>
+        <source>Wallet needed to be rewritten: restart CRYSTAL to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite CRYSTAL</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2870,8 +2870,8 @@ for example: alertnotify=echo %%s | mail -s &quot;DEEPCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DEEPCOIN is probably already running.</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. DEEPCOIN tikriausiai jau veikia.</translation>
+        <source>Unable to bind to %s on this computer. CRYSTAL is probably already running.</source>
+        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. CRYSTAL tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location line="+64"/>
