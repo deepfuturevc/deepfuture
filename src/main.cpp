@@ -68,7 +68,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "DEEPCOIN Signed Message:\n";
+const string strMessageMagic = "CRYSTAL Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -359,7 +359,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // DEEPCOIN: IsDust() detection disabled, allows any valid dust to be relayed.
+    // CRYSTAL: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -631,7 +631,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
 #endif
     }
 
-    // DEEPCOIN
+    // CRYSTAL
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1092,7 +1092,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     int64 nSubsidy = 1 * COIN;
 
 
-	if (nHeight == 1)
+	if (nHeight == 2)
 		return 100000000 * COIN;
 	
 	// Subsidy halving
@@ -2263,7 +2263,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // DEEPCOIN: temporarily disable v2 block lockin until we are ready for v2 transition
+    // CRYSTAL: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -3077,7 +3077,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment. pchmess0agestart
-unsigned char pchMessageStart[4] = { 0xd9, 0xc4, 0xaf, 0xeb };
+unsigned char pchMessageStart[4] = { 0xd4, 0xc1, 0xaf, 0xeb };
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4119,7 +4119,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// DEEPCOINMiner
+// CRYSTALMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4532,7 +4532,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("DEEPCOINMiner:\n");
+    printf("CRYSTALMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4541,7 +4541,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("DEEPCOINMiner : generated block is stale");
+            return error("CRYSTALMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4555,17 +4555,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("DEEPCOINMiner : ProcessBlock, block not accepted");
+            return error("CRYSTALMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static DEEPCOINMiner(CWallet *pwallet)
+void static CRYSTALMiner(CWallet *pwallet)
 {
-    printf("DEEPCOINMiner started\n");
+    printf("CRYSTALMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("DEEPCOIN-miner");
+    RenameThread("CRYSTAL-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4587,7 +4587,7 @@ void static DEEPCOINMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running DEEPCOINMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running CRYSTALMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4699,7 +4699,7 @@ void static DEEPCOINMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("DEEPCOINMiner terminated\n");
+        printf("CRYSTALMiner terminated\n");
         throw;
     }
 }
@@ -4724,7 +4724,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&DEEPCOINMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&CRYSTALMiner, pwallet));
 }
 
 // Amount compression:
