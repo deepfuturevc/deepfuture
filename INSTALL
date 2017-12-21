@@ -1,9 +1,9 @@
-Building CRYSTAL
+Building deepfuturecoin
 
-See doc/readme-qt.rst for instructions on building CRYSTAL-Qt,
+See doc/readme-qt.rst for instructions on building deepfuturecoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of CRYSTAL.
+implementation of deepfuturecoin.
 
-See doc/build-*.txt for instructions on building CRYSTALd,
+See doc/build-*.txt for instructions on building deepfuturecoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of CRYSTAL.
+implementation of deepfuturecoin.

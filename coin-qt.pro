@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = CRYSTAL-qt
-macx:TARGET = "CRYSTAL-Qt"
+TARGET = deepfuturecoin-qt
+macx:TARGET = "deepfuturecoin-Qt"
 VERSION = 1.0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += network
