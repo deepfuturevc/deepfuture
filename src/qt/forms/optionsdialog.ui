@@ -79,10 +79,10 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start CRYSTAL after logging in to the system.</string>
+          <string>Automatically start deepfuturecoin after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start CRYSTAL on system login</string>
+          <string>&amp;Start deepfuturecoin on system login</string>
          </property>
         </widget>
        </item>
@@ -139,7 +139,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-          <string>Automatically open the CRYSTAL client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the deepfuturecoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -149,7 +149,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the CRYSTAL network through a SOCKS proxy (e.g. when connecting through Tor).</string>
+          <string>Connect to the deepfuturecoin network through a SOCKS proxy (e.g. when connecting through Tor).</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS proxy:</string>
@@ -323,7 +323,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting CRYSTAL.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting deepfuturecoin.</string>
            </property>
           </widget>
          </item>
@@ -356,7 +356,7 @@
        <item>
         <widget class="QCheckBox" name="displayAddresses">
          <property name="toolTip">
-          <string>Whether to show CRYSTAL addresses in the transaction list or not.</string>
+          <string>Whether to show deepfuturecoin addresses in the transaction list or not.</string>
          </property>
          <property name="text">
           <string>&amp;Display addresses in transaction list</string>
