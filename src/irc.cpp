@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2012 CRYSTAL Developers
+// Copyright (c) 2011-2012 deepfuturecoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -190,7 +190,7 @@ bool GetIPFromIRC(SOCKET hSocket, string strMyName, CNetAddr& ipRet)
 void ThreadIRCSeed()
 {
     // Make this thread recognisable as the IRC seeding thread
-    RenameThread("CRYSTAL-ircseed");
+    RenameThread("deepfuturecoin-ircseed");
 
     try
     {
@@ -301,16 +301,16 @@ void ThreadIRCSeed2()
         }
         
         if (fTestNet) {
-            Send(hSocket, "JOIN #CRYSTALTEST0\r");
-            Send(hSocket, "WHO #CRYSTALTEST0\r");
+            Send(hSocket, "JOIN #deepfuturecoinTEST0\r");
+            Send(hSocket, "WHO #deepfuturecoinTEST0\r");
         } else {
-            // randomly join #CRYSTAL00-#CRYSTAL99
+            // randomly join #deepfuturecoin00-#deepfuturecoin99
             // network is now over 3k peers , get them to join 50 random channels!
             //            channel_number = 0; 
             int channel_number = 0; //GetRandInt(50);
 
-            Send(hSocket, strprintf("JOIN #CRYSTAL%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #CRYSTAL%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("JOIN #deepfuturecoin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #deepfuturecoin%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();
