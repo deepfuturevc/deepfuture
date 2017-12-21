@@ -1,4 +1,4 @@
-Mac OS X CRYSTALd build instructions
+Mac OS X deepfuturecoind build instructions
 ====================================
 
 Authors
@@ -26,7 +26,7 @@ Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
 Notes
 -----
 
-See `doc/readme-qt.rst` for instructions on building CRYSTAL-Qt, the
+See `doc/readme-qt.rst` for instructions on building deepfuturecoin-Qt, the
 graphical user interface.
 
 Tested on OS X 10.5 through 10.8 on Intel processors only. PPC is not
@@ -72,14 +72,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
 
-### Building `CRYSTALd`
+### Building `deepfuturecoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:CRYSTAL-project/CRYSTAL.git CRYSTAL
-        cd CRYSTAL
+        git clone git@github.com:deepfuturecoin-project/deepfuturecoin.git deepfuturecoin
+        cd deepfuturecoin
 
-2.  Build CRYSTALd:
+2.  Build deepfuturecoind:
 
         cd src
         make -f makefile.osx
@@ -97,7 +97,7 @@ You may find it easier to add the following steps to your process.  Since QT 4.8
 
       brew install qt
       
-Once you have QT installed, you might need to relink the new applications so that they appear in your Application folder, but this is unnecessary for compiling CRYSTAL.  Now move on to installing the rest of the dependencies.
+Once you have QT installed, you might need to relink the new applications so that they appear in your Application folder, but this is unnecessary for compiling deepfuturecoin.  Now move on to installing the rest of the dependencies.
 
 #### Install dependencies using Homebrew
 
@@ -115,12 +115,12 @@ If not, you can ensure that the Brew OpenSSL is correctly linked by running
 
 Rerunning "openssl version" should now return the correct version.
 
-### Building `CRYSTALd`
+### Building `deepfuturecoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:CRYSTAL-project/CRYSTAL.git CRYSTAL
-        cd CRYSTAL
+        git clone git@github.com:deepfuturecoin-project/deepfuturecoin.git deepfuturecoin
+        cd deepfuturecoin
 
 2.  Modify source in order to pick up the `openssl` library.
 
@@ -130,11 +130,11 @@ Rerunning "openssl version" should now return the correct version.
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
 
-*Update*: The above #2 step has been rebuilt here. Now before you proceed to building CRYSTALd it is coing to be necessary to edit both the makefile and the CRYSTAL-qt.pro file.  You can find those edits in /contrib/homebrew/
+*Update*: The above #2 step has been rebuilt here. Now before you proceed to building deepfuturecoind it is coing to be necessary to edit both the makefile and the deepfuturecoin-qt.pro file.  You can find those edits in /contrib/homebrew/
 
 What you doing is fixing the locations of openssl, boost, and berkeley-db4 to the correct locations that homebrew installs.
 
-3.  Build CRYSTALd:
+3.  Build deepfuturecoind:
 
         cd src
         make -f makefile.osx
@@ -146,8 +146,8 @@ What you doing is fixing the locations of openssl, boost, and berkeley-db4 to th
 Creating a release build
 ------------------------
 
-A CRYSTALd binary is not included in the CRYSTAL-Qt.app bundle. You can ignore
-this section if you are building `CRYSTALd` for your own use.
+A deepfuturecoind binary is not included in the deepfuturecoin-Qt.app bundle. You can ignore
+this section if you are building `deepfuturecoind` for your own use.
 
 If you are building `litecond` for others, your build machine should be set up
 as follows for maximum compatibility:
@@ -168,10 +168,10 @@ As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
 Download `http://gavinandresen-bitcoin.s3.amazonaws.com/boost_macports_fix.zip`
 for a fix. Some ports also seem to obey either `build_arch` or
 `macosx_deployment_target`, but not both at the same time. For example, building
-on an OS X 10.6 64-bit machine fails. Official release builds of CRYSTAL-Qt are
+on an OS X 10.6 64-bit machine fails. Official release builds of deepfuturecoin-Qt are
 compiled on an OS X 10.6 32-bit machine to workaround that problem.
 
-Once dependencies are compiled, creating `CRYSTAL-Qt.app` is easy:
+Once dependencies are compiled, creating `deepfuturecoin-Qt.app` is easy:
 
     make -f Makefile.osx RELEASE=1
 
@@ -191,20 +191,20 @@ This will make the QT version of the wallet WITHOUT having to use QT Creator (si
 Running
 -------
 
-It's now available at `./CRYSTALd`, provided that you are still in the `src`
+It's now available at `./deepfuturecoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./CRYSTALd` to get the filename where it should be put, or just try these
+Run `./deepfuturecoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=CRYSTALrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/CRYSTAL/CRYSTAL.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/CRYSTAL/CRYSTAL.conf"
+    echo -e "rpcuser=deepfuturecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/deepfuturecoin/deepfuturecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/deepfuturecoin/deepfuturecoin.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./CRYSTALd --help  # for a list of command-line options.
-    ./CRYSTALd -daemon # to start the CRYSTAL daemon.
-    ./CRYSTALd help    # When the daemon is running, to get a list of RPC commands
+    ./deepfuturecoind --help  # for a list of command-line options.
+    ./deepfuturecoind -daemon # to start the deepfuturecoin daemon.
+    ./deepfuturecoind help    # When the daemon is running, to get a list of RPC commands
